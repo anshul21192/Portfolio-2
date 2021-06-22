@@ -1,0 +1,939 @@
+@media all and (max-width:290px) {
+
+    #logo {
+        width: 25.5em;
+        height: 5em;
+        /* border: 2px solid blue; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .slide {
+        font-size: 1.5em;
+        width: 1.5em;
+        height: 2.5em;
+        /* border-radius: 5em; */
+        /* border: 2px solid blue; */
+        text-align: center;
+        padding-top: 1em;
+        /* font-weight: 900; */
+        font-family: system-ui;
+        font-family: 'Monoton', cursive;
+        /* animation: show 1s ease-in-out 1s; */
+    }
+    
+    .boxslide {
+        /* border: 2px solid red;  */
+        width: 12em;
+        height: 9em;
+        position: absolute;
+        top: -1em;
+        left: -2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .one{
+
+        position: relative;
+        left: 1.6em;
+        clip-path: circle(50.0% at 0 51%);
+        background-color: rgb(248 123 83 / 36%);
+        color: white;
+    
+    }
+    
+    .two{
+    
+        position: relative;
+        right: 1.6em;
+        clip-path: circle(50.0% at 93% 50%);
+        background-color: rgb(50 89 121 / 53%);
+        color: white;
+    
+    }
+    
+    
+    
+
+    #container {
+        /* border: 2px solid red; */
+        width: 25.5em;
+        height: 29.5em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 5px;
+        overflow: hidden;
+    }
+
+    .animation{
+        display: none;
+    }
+
+    .box2 {
+        align-self: center;
+        /* border: 2px solid black; */
+        width: 15.5em;
+        height: 15em;
+        place-self: flex-start;
+        margin-top: 3em;
+    }
+
+    .h1 {
+        height: 2em;
+        width: 11em;
+        /* margin: auto; */
+        margin-top: 10px;
+        padding-top: 20px;
+        font-size: 30px;
+        margin-left: 15px;
+    }
+    
+    h3 {
+        height: 2em;
+        width: 16em;
+        /* margin: auto; */
+        margin-top: -10px;
+        padding-top: 20px;
+        font-size: 15px;
+    } 
+
+    .btn {
+        width: 150px;
+        height: 40px;
+        margin: 35px 30px;
+        font-size: 15px;
+        border-radius: 2em;
+        outline: none;
+        border: none;
+    }
+
+    .section2{
+
+        /* display: block; */
+        top: 7em;
+         right: -11.5em;
+
+    }
+    .background{
+
+        width: 25em;
+        position: absolute;
+        top: 20em;
+        left: 0em;
+        z-index: -1;
+    }
+}
+
+/* .................NEW MEDIA STARTS FROM HERE.................. */
+
+
+@media all and (max-width:350px) and (min-width:300px){
+
+    #logo {
+        width: 25.5em;
+        height: 5em;
+        /* border: 2px solid blue; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .slide {
+        font-size: 1.5em;
+        width: 1.5em;
+        height: 2.5em;
+        /* border-radius: 5em; */
+        /* border: 2px solid blue; */
+        text-align: center;
+        padding-top: 1em;
+        /* font-weight: 900; */
+        font-family: system-ui;
+        font-family: 'Monoton', cursive;
+        /* animation: show 1s ease-in-out 1s; */
+    }
+    
+    .boxslide {
+        /* border: 2px solid red;  */
+        width: 12em;
+        height: 9em;
+        position: absolute;
+        top: -1em;
+        left: -2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .one{
+
+        position: relative;
+        left: 1.6em;
+        clip-path: circle(50.0% at 0 51%);
+        background-color: rgb(248 123 83 / 36%);
+        color: white;
+    
+    }
+    
+    .two{
+    
+        position: relative;
+        right: 1.6em;
+        clip-path: circle(50.0% at 93% 50%);
+        background-color: rgb(50 89 121 / 53%);
+        color: white;
+    
+    }
+    
+    
+    
+
+    #container {
+        /* border: 2px solid red; */
+        width: 25.5em;
+        height: 29.5em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 5px;
+    }
+
+    .animation{
+        display: none;
+    }
+
+
+
+    .box2 {
+        align-self: center;
+        /* border: 2px solid black; */
+        width: 21.9em;
+        height: 15em;
+        place-self: flex-start;
+        margin-top: 3em;
+    }
+
+    .h1 {
+        height: 2em;
+        width: 11em;
+        /* margin: auto; */
+        margin-top: 10px;
+        padding-top: 20px;
+        font-size: 40px;
+        /* margin-left: 5px; */
+    }
+    
+    h3 {
+        height: 2em;
+        width: 16em;
+        /* margin: auto; */
+        margin-top: 10px;
+        padding-top: 20px;
+        font-size: 20px;
+    } 
+
+    .section2{
+
+        /* display: block; */
+        top: 7em;
+        right: -9.5em;
+
+    }
+    .background{
+
+        width: 30em;
+        position: absolute;
+        top: 15em;
+        left: -4em;
+        z-index: -1;
+    
+    }
+}
+
+
+/* .................NEW MEDIA STARTS FROM HERE.................. */
+
+
+@media all and (max-width:400px) and (min-width:351px){
+
+    #logo {
+        width: 25.5em;
+        height: 5em;
+        /* border: 2px solid blue; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .slide {
+        font-size: 1.5em;
+        width: 1.5em;
+        height: 2.5em;
+        /* border-radius: 5em; */
+        /* border: 2px solid blue; */
+        text-align: center;
+        padding-top: 1em;
+        /* font-weight: 900; */
+        font-family: system-ui;
+        font-family: 'Monoton', cursive;
+        /* animation: show 1s ease-in-out 1s; */
+    }
+    
+    .boxslide {
+        /* border: 2px solid red;  */
+        width: 12em;
+        height: 9em;
+        position: absolute;
+        top: -1em;
+        left: -2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .one{
+
+        position: relative;
+        left: 1.6em;
+        clip-path: circle(50.0% at 0 51%);
+        background-color: rgb(248 123 83 / 36%);
+        color: white;
+    
+    }
+    
+    .two{
+    
+        position: relative;
+        right: 1.6em;
+        clip-path: circle(50.0% at 93% 50%);
+        background-color: rgb(50 89 121 / 53%);
+        color: white;
+    
+    }
+    
+
+    #container {
+        /* border: 2px solid red; */
+        width: 25.5em;
+        height: 29.5em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 5px;
+    }
+
+    .animation{
+        display: none;
+    }
+
+
+    .box2 {
+        align-self: center;
+        /* border: 2px solid black; */
+        width: 21.9em;
+        height: 15em;
+        place-self: flex-start;
+        margin-top: 3em;
+    }
+
+    .h1 {
+        height: 2em;
+        width: 11em;
+        /* margin: auto; */
+        margin-top: 10px;
+        padding-top: 20px;
+        font-size: 39px;
+        margin-left: 20px;
+    }
+    
+    h3 {
+        height: 2em;
+        width: 16em;
+        margin-top: -20px;
+        padding-top: 20px;
+        font-size: 20px;
+    } 
+
+    .btn {
+        width: 150px;
+        height: 40px;
+        margin: 35px 30px;
+        font-size: 15px;
+        border-radius: 2em;
+        outline: none;
+        border: none;
+    }
+
+    .section2{
+
+        /* display: block; */
+        top: 7em;
+        right: -7.9em;
+
+    }
+    .background{
+
+        width: 25em;
+        position: absolute;
+        top: 20em;
+        left: 0em;
+        z-index: -1;
+    
+    }
+}
+
+/* .................NEW MEDIA STARTS FROM HERE.................. */
+
+
+@media all and (max-width:490px) and (min-width:401px){
+
+    #logo {
+        width: 25.5em;
+        height: 5em;
+        /* border: 2px solid blue; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .slide {
+        font-size: 1.5em;
+        width: 1.5em;
+        height: 2.5em;
+        /* border-radius: 5em; */
+        /* border: 2px solid blue; */
+        text-align: center;
+        padding-top: 1em;
+        /* font-weight: 900; */
+        font-family: system-ui;
+        font-family: 'Monoton', cursive;
+        /* animation: show 1s ease-in-out 1s; */
+    }
+    
+    .boxslide {
+        /* border: 2px solid red;  */
+        width: 12em;
+        height: 9em;
+        position: absolute;
+        top: -1em;
+        left: -2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .one{
+
+        position: relative;
+        left: 1.6em;
+        clip-path: circle(50.0% at 0 51%);
+        background-color: rgb(248 123 83 / 36%);
+        color: white;
+    
+    }
+    
+    .two{
+    
+        position: relative;
+        right: 1.6em;
+        clip-path: circle(50.0% at 93% 50%);
+        background-color: rgb(50 89 121 / 53%);
+        color: white;
+    
+    }
+    
+    
+
+    #container {
+        /* border: 2px solid red; */
+        width: 25.5em;
+        height: 29.5em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 5px;
+    }
+
+    .animation{
+        display: none;
+    }
+
+
+    .box2 {
+        align-self: center;
+        /* border: 2px solid black; */
+        width: 21.9em;
+        height: 15em;
+        place-self: flex-start;
+        margin-top: 3em;
+    }
+
+    .h1 {
+        height: 2em;
+        width: 11em;
+        /* margin: auto; */
+        margin-top: 10px;
+        padding-top: 20px;
+        font-size: 40px;
+        margin-left: 15px;
+    }
+    
+    h3 {
+        height: 2em;
+        width: 16em;
+        /* margin: auto; */
+        margin-top: -10px;
+        padding-top: 20px;
+        font-size: 20px;
+    } 
+
+    .btn {
+        width: 150px;
+        height: 40px;
+        margin: 35px 30px;
+        font-size: 15px;
+        border-radius: 2em;
+        outline: none;
+        border: none;
+    }
+
+
+    .section2{
+
+        /* display: block; */
+        top: 7em;
+         right: -5.1em;
+
+    }
+    .background{
+        width: 20em;
+        position: absolute;
+        top: 21em;
+        left: 0em;
+        z-index: -1;
+    
+    }
+}
+
+/* .................NEW MEDIA STARTS FROM HERE.................. */
+
+
+@media all and (max-width:600px) and (min-width:500px){
+
+    #logo {
+        width: 27em;
+        height: 5em;
+        /* border: 2px solid blue; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+
+    .slide {
+        font-size: 1.5em;
+        width: 1.5em;
+        height: 2.5em;
+        /* border-radius: 5em; */
+        /* border: 2px solid blue; */
+        text-align: center;
+        padding-top: 1em;
+        /* font-weight: 900; */
+        font-family: system-ui;
+        font-family: 'Monoton', cursive;
+        /* animation: show 1s ease-in-out 1s; */
+    }
+    
+    .boxslide {
+        /* border: 2px solid red;  */
+        width: 12em;
+        height: 9em;
+        position: absolute;
+        top: -1em;
+        left: -2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .one{
+
+        position: relative;
+        left: 1.6em;
+        clip-path: circle(50.0% at 0 51%);
+        background-color: rgb(248 123 83 / 36%);
+        color: white;
+    
+    }
+    
+    .two{
+    
+        position: relative;
+        right: 1.6em;
+        clip-path: circle(50.0% at 93% 50%);
+        background-color: rgb(50 89 121 / 53%);
+        color: white;
+    
+    }
+    
+    
+
+    #container {
+        /* border: 2px solid red; */
+        width: 27em;
+        height: 29.5em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 5px;
+    }
+
+    .animation{
+        display: none;
+    }
+
+
+    .box2 {
+        align-self: center;
+        /* border: 2px solid black; */
+        width: 21.5em;
+        height: 15em;
+        place-self: flex-start;
+        margin-top: 3em;
+    }
+
+    .h1 {
+        height: 2em;
+        width: 11em;
+        /* margin: auto; */
+        margin-top: 10px;
+        padding-top: 20px;
+        font-size: 43px;
+        margin-left: 15px;
+    }
+    
+    h3 {
+        height: 2em;
+        width: 16em;
+        /* margin: auto; */
+        margin-top: -10px;
+        padding-top: 20px;
+        font-size: 20px;
+    } 
+
+    .btn {
+        width: 150px;
+        height: 40px;
+        margin: 35px 30px;
+        font-size: 15px;
+        border-radius: 2em;
+        outline: none;
+        border: none;
+    }
+
+    .section2{
+
+        /* display: block; */
+        color: rgb(10, 10, 10);
+    }
+
+    .background{
+
+        width: 25em;
+        position: absolute;
+        top: 20em;
+        left: 0em;
+        z-index: -1;
+    
+    }
+}
+
+/* .................NEW MEDIA STARTS FROM HERE.................. */
+
+
+@media all and (max-width:790px) and (min-width:610px){
+
+    #logo {
+        width: 38em;
+        height: 5em;
+        /* border: 2px solid blue; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .slide {
+        font-size: 1.5em;
+        width: 1.5em;
+        height: 2.5em;
+        /* border-radius: 5em; */
+        /* border: 2px solid blue; */
+        text-align: center;
+        padding-top: 1em;
+        /* font-weight: 900; */
+        font-family: system-ui;
+        font-family: 'Monoton', cursive;
+        /* animation: show 1s ease-in-out 1s; */
+    }
+    
+    .boxslide {
+        /* border: 2px solid red;  */
+        width: 12em;
+        height: 9em;
+        position: absolute;
+        top: -1em;
+        left: -2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .one{
+
+        position: relative;
+        left: 1.6em;
+        clip-path: circle(50.0% at 0 51%);
+        background-color: rgb(248 123 83 / 36%);
+        color: white;
+    
+    }
+    
+    .two{
+    
+        position: relative;
+        right: 1.6em;
+        clip-path: circle(50.0% at 93% 50%);
+        background-color: rgb(50 89 121 / 53%);
+        color: white;
+    
+    }
+    
+    
+    
+
+    #container {
+        /* border: 2px solid red; */
+        width: 38em;
+        height: 29.5em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 5px;
+    }
+
+    .animation{
+        display: none;
+    }
+
+
+    .section1 {
+     
+        width: 24em;
+        height: 28em;
+     
+    }
+
+    .box2 {
+        align-self: center;
+        /* border: 2px solid black; */
+        width: 23em;
+        height: 15em;
+        place-self: flex-start;
+        margin-top: 3em;
+    }
+
+    .h1 {
+        height: 2em;
+        width: 11em;
+        /* margin: auto; */
+        margin-top: 10px;
+        padding-top: 20px;
+        font-size: 45px;
+        margin-left: 15px;
+    }
+    
+    h3 {
+        height: 2em;
+        width: 16em;
+        /* margin: auto; */
+        margin-top: -10px;
+        padding-top: 20px;
+        font-size: 20px;
+    } 
+
+    .btn {
+        width: 150px;
+        height: 40px;
+        margin: 35px 30px;
+        font-size: 15px;
+        border-radius: 2em;
+        outline: none;
+        border: none;
+    }
+
+    
+
+    .section2{
+
+        /* display: block; */
+        color: rgb(19, 17, 19);
+
+    }
+
+    .background{
+
+        width: 30em;
+        position: absolute;
+        top: 15em;
+        left: 8em;
+        z-index: -1;
+    }
+}
+
+/* .................NEW MEDIA STARTS FROM HERE.................. */
+
+
+@media all and (max-width:1490px) and (min-width:1000px){
+
+    #logo {
+        width: 51em;
+        height: 5em;
+        /* border: 2px solid blue; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+
+    .slide {
+        font-size: 1.5em;
+        width: 1.5em;
+        height: 2.5em;
+        /* border-radius: 5em; */
+        /* border: 2px solid blue; */
+        text-align: center;
+        padding-top: 1em;
+        /* font-weight: 900; */
+        font-family: system-ui;
+        font-family: 'Monoton', cursive;
+        /* animation: show 1s ease-in-out 1s; */
+    }
+    
+    .boxslide {
+        /* border: 2px solid red;  */
+        width: 12em;
+        height: 9em;
+        position: absolute;
+        top: -1em;
+        left: -2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .one{
+
+        position: relative;
+        left: 1.6em;
+        clip-path: circle(50.0% at 0 51%);
+        background-color: rgb(248 123 83 / 36%);
+        color: white;
+    
+    }
+    
+    .two{
+    
+        position: relative;
+        right: 1.6em;
+        clip-path: circle(50.0% at 93% 50%);
+        background-color: rgb(50 89 121 / 53%);
+        color: white;
+    
+    }
+    
+    
+
+    #container {
+        /* border: 2px solid red; */
+        width: 51em;
+        height: 29.5em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 5px;
+    }
+
+    .section1{
+        width: 23em;
+    }
+
+    .animation {
+        right: 5em;
+    } 
+
+    .box2 {
+        align-self: center;
+        /* border: 2px solid black; */
+        width: 22em;
+        height: 15em;
+        place-self: flex-start;
+        margin-top: 3em;
+    }
+
+    .h1 {
+        height: 2em;
+        width: 11em;
+        /* margin: auto; */
+        margin-top: 10px;
+        padding-top: 20px;
+        font-size: 43px;
+        margin-left: 15px;
+    }
+    
+    h3 {
+        height: 2em;
+        width: 16em;
+        /* margin: auto; */
+        margin-top: -10px;
+        padding-top: 20px;
+        font-size: 20px;
+    } 
+
+    .btn {
+        width: 200px;
+        height: 50px;
+        margin: 35px 30px;
+        font-size: 18px;
+        border-radius: 2em;
+        outline: none;
+        border: none;
+    }
+
+    .section2{
+
+        /* display: block;
+         */
+         color: rgb(14, 13, 14);
+         /* width: 23em; */
+
+    }
+    .background{
+
+        width: 30em;
+        position: absolute;
+        top: 17em;
+        left: 10em;
+    
+    }
+}

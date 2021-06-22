@@ -1,0 +1,53 @@
+.btnchange2{
+
+    background-color: rgb(255,218,185);
+}
+
+.boxanimationchange2{
+
+    background-color: #87cefa33;
+    color: #f443369c;
+
+}
+
+.optionchange2{
+
+    display: block;
+    background-color: rgb(213 232 15 / 75%);
+    color: white;
+    font-style: italic;
+    font-family: cursive;
+
+}
+
+/* .containerchange2{
+
+    background-color: blue;
+} */
+
+
+
+
+
+
+
+/* ...................Classic BUTTON CSS CODE............... */
+
+
+.btnchange3{
+
+    background-color:#ffeb3b;
+}
+
+.optionchange3{
+
+    background-color: rgb(250 113 70 / 76%);
+    color: black;
+
+}
+
+
+.active
+{
+    background:linear-gradient(to left, #ddd6f3,#faaca8) ;
+}

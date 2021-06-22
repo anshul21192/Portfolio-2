@@ -1,0 +1,46 @@
+.boxslide{
+    /* border: 2px solid red; */
+    width: 12em;
+    height: 9em;
+    position: absolute;
+    top: -1em;
+    left: -2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.slide{
+    font-size: 1.5em;
+    width: 1.8em;
+    height: 3em;
+    /* border: 2px solid blue; */
+    text-align: center;
+    padding-top: 1em;
+
+    font-family: system-ui;
+    font-family: 'Monoton', cursive;
+
+    
+}
+
+.one{
+
+    position: relative;
+    left: 1.85em;
+    clip-path: circle(50.0% at 0 51%);
+    background-color: rgb(248 123 83 / 36%);
+    color: white;
+
+}
+
+.two{
+
+    position: relative;
+    right: 1.85em;
+    clip-path: circle(50.0% at 93% 50%);
+    background-color: rgb(50 89 121 / 53%);
+    color: white;
+
+}
